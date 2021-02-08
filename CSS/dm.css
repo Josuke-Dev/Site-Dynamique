@@ -1,0 +1,8 @@
+.bg-black{
+    background-color: #000000;
+}
+
+.bottom-TextP{
+    transform: translateY(32px) translateX(-32px);
+    color: white;
+}

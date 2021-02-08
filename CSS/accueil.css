@@ -1,0 +1,40 @@
+.bg-black {
+  background-color: #000000;
+}
+
+.bottom-TextP {
+  transform: translateY(32px) translateX(-32px);
+  color: white;
+}
+
+.profilPosition {
+  position: fixed;
+  right: 48px;
+  top: 32px;
+}
+
+.navbar-expand-lg {
+  flex-flow: column nowrap;
+}
+
+.hoverItem {
+  transform: scale(1);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+}
+.hoverItem:hover {
+  transform: scale(1.25);
+}
+
+.notification {
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+#toastContainer {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
